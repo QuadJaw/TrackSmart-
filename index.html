@@ -87,7 +87,58 @@
       <button class="cta" type="submit">Sign Up</button>
     </form>
   </section>
-
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrackSmart Investor Dashboard</title>
+  <style>
+    body { font-family: 'Inter', sans-serif; background: #0f1115; color: #f0f0f0; margin: 0; padding: 2rem; }
+    h1, h2 { color: #1dd1a1; text-align: center; }
+    .progress-container { margin: 2rem auto; max-width: 600px; background: #1c1e24; padding: 1rem; border-radius: 12px; }
+    .progress-bar { background: #1dd1a1; height: 24px; border-radius: 12px; width: 37%; transition: width 0.4s ease; }
+    .tiers { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+    .card { background: #1c1e24; padding: 1.5rem; border-radius: 12px; text-align: center; border: 2px solid #333; }
+    .card h3 { margin-top: 0; color: #1dd1a1; }
+    .form { text-align: center; margin-top: 3rem; }
+    .form input, .form button { padding: 0.8rem; border-radius: 8px; border: none; margin: 0.5rem; }
+    .form input { width: 200px; }
+    .form button { background: #1dd1a1; font-weight: bold; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>TrackSmart Investor Dashboard</h1>
+  <h2>Funding Progress: $185,000 / $500,000</h2>  <div class="progress-container">
+    <div class="progress-bar"></div>
+  </div>  <section class="tiers">
+    <div class="card">
+      <h3>Bronze Tier</h3>
+      <p>$100–$499</p>
+      <p>• Name listed on site<br>• Beta access</p>
+    </div>
+    <div class="card">
+      <h3>Silver Tier</h3>
+      <p>$500–$4,999</p>
+      <p>• Premium access<br>• Investor badge</p>
+    </div>
+    <div class="card">
+      <h3>Gold Tier</h3>
+      <p>$5,000–$24,999</p>
+      <p>• Revenue sharing<br>• Early feature voting</p>
+    </div>
+    <div class="card">
+      <h3>Platinum Tier</h3>
+      <p>$25,000+</p>
+      <p>• Equity agreement<br>• Public partner listing</p>
+    </div>
+  </section>  <div class="form">
+    <h2>Pledge Your Support</h2>
+    <input type="text" placeholder="Your Name">
+    <input type="number" placeholder="Amount">
+    <button>Submit Pledge</button>
+  </div>
+</body>
+</html>
   <footer>
     &copy; 2025 TrackSmart. All rights reserved. | <a href="#">Legal Disclaimer</a>
   </footer>
